@@ -65,7 +65,7 @@ print_modname() {
     sleep 1
     ui_print "║"
     ui_print "╠▌Extracting and Moving files for ▰ $(getprop ro.product.cpu.abi)"
-    [[ "$IS64BIT" == "true" ]] && tar -xf "$MODPATH/zotog.tar.xz" -C "$MODPATH" || tar -xf "$MODPATH/zotog.tar.xz" -C "$MODPATH"
+    [[ "$IS64BIT" == "true" ]] && tar -xf "$MODPATH/rapid.tar.xz" -C "$MODPATH" || tar -xf "$MODPATH/rapid.tar.xz" -C "$MODPATH"
     sleep 2.5
     ui_print "║"
     ui_print "╚══⇒ DONE .. All Scripts Placed Successfully!"
